@@ -203,6 +203,6 @@ def process_light(mindate = sdate(5,1,0), maxdate = None, usecaribu = True, view
 
 if __name__ == '__main__':
     # date(month,day,hour)
-    results = process_light(sdate(8,15,14), sdate(8,15,15), outdir='result', view=True)
+    results = process_light(sdate(8,15,9), sdate(8,15,10), outdir='result', view=True)
     print(results)
 
